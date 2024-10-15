@@ -12,10 +12,13 @@ body {
   align-items: stretch;
   flex-direction: row;
   height: 100%;
+  overflow: hidden;
 }
 
 a{
   text-decoration: none;
+  text-decoration-line: none;
+  color: black;
 }
 a:hover{
   font-size : 100;
@@ -40,6 +43,10 @@ a:hover{
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+#profile{
+  padding: 3%;
 }
 
 #table{
