@@ -4,7 +4,6 @@
 	font-style: normal;
 	padding: 0;
 	margin : 0;
-	transition: all 0.5s;
 }
 
 html, body{
@@ -38,7 +37,8 @@ html, body{
 	background-size: cover;
 	background-position: center;
 	background-blend-mode: darken; 
-	color:white
+	color:white;
+	scroll-snap-type: y mandatory
 }
 
 #openingComment{
@@ -49,6 +49,7 @@ html, body{
 	background-image: url("../images/personalInfoImg.jpg");
 }
 
-.animatedText {
+.animatedTextContainer > *{
+	transition: all 1s;
 	opacity: 0;
 }
