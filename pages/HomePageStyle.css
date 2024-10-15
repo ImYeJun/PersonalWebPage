@@ -38,7 +38,6 @@ html, body{
 	background-position: center;
 	background-blend-mode: darken; 
 	color:white;
-	scroll-snap-type: y mandatory
 }
 
 #openingComment{
@@ -49,7 +48,43 @@ html, body{
 	background-image: url("../images/personalInfoImg.jpg");
 }
 
-.animatedTextContainer > *{
+#otherHompages{
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#hompages{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 10px;
+	gap : 200px;
+}
+#hompages>div{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+#hompages,#hompages>div>ul>li>a,#contact,#scholar{  
+	font-size: 120%;
+	text-decoration: none;
+  text-decoration-line: none;
+	color :white;
+}
+#hompages>div>ul>li>a:hover{
+	color : pink
+}
+
+#hompages > div > img, a > img{
+	width: 120px;
+}
+
+.animatedContainer > *{
 	transition: all 1s;
 	opacity: 0;
 }

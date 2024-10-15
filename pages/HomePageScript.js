@@ -9,13 +9,13 @@ document.addEventListener('DOMContentLoaded', () => {
 			}
 		});
 	});
-	
+
 	// 모든 .animatedTextContainer 내부의 자식 요소들을 감시
-	const animatedContainers = document.querySelectorAll(".animatedTextContainer");
+	const animatedContainers = document.querySelectorAll(".animatedContainer");
 	animatedContainers.forEach((container) => {
-		const animatedTexts = container.querySelectorAll("*"); // 각 container의 자식 요소들
-		animatedTexts.forEach((text) => {
-			observer.observe(text); // 각 자식 요소에 observer 적용
+		const animatedBoxes = container.querySelectorAll("*"); // 각 container의 자식 요소들
+		animatedBoxes.forEach((entry) => {
+			observer.observe(entry); // 각 자식 요소에 observer 적용
 		});
 	});
 });
