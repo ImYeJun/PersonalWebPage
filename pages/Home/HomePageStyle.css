@@ -74,7 +74,7 @@ html, body{
 #hompages,#hompages>div>ul>li>a,#contact,#scholar{  
 	font-size: 120%;
 	text-decoration: none;
-  	text-decoration-line: none;
+	text-decoration-line: none;
 	color :white;
 }
 #hompages>div>ul>li>a:hover{

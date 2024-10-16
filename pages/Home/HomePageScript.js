@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		entries.forEach((entry) => {
 			if (entry.isIntersecting) {
 				entry.target.style.opacity = 1;
+				entry.target.style.translateZ = 0;
 			}
 			else{
 				entry.target.style.opacity = 0;
