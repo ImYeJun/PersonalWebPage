@@ -33,9 +33,9 @@ a:hover{
   flex: 1;
   display: flex;
   flex-direction: column;
-  box-shadow: -5px 0 10px rgba(0, 0, 0, 0.8);
   align-items: center;
   justify-content: center;
+  background-color :whitesmoke;
 }
 
 #rigthContainer {
@@ -50,10 +50,9 @@ a:hover{
 }
 
 #profile{
-  border : 4px solid black;
-  border-radius: 15%;
-  padding : 5%;
-  margin: 3%;
+  border : 3px dashed black;
+  border-radius: 5%;
+  padding: 10%;
 }
 
 #table{
