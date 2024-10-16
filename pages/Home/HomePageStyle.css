@@ -9,6 +9,7 @@
 html, body{
 	width: 100%;
 	height: 100%;
+	scroll-snap-type: y mandatory;
 }
 
 
@@ -87,4 +88,8 @@ html, body{
 .animatedContainer > *{
 	transition: all 1s;
 	opacity: 0;
+}
+
+.animatedContainer{
+	scroll-snap-align: start;
 }
