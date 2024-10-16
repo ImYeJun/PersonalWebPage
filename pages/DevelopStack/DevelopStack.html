@@ -4,10 +4,14 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Document</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="./DevelopStackStyle.css">
+		<base href="../../">
 </head>
 <body>
-	<div id="희망분야">
+	<div id="fieldOfHope">
 		<h1>희망 분야</h1>
 		<h3>게임</h3>
 		<h5>웹(프론트엔드)에도 관심있음</h5>
@@ -15,35 +19,47 @@
 	
 	<div id="programmingLanguageContainer">
 		<h1>프로그래밍 언어</h1>
-		<ul>
-			<h3>좀 자신있는거</h3>
-			<ul>
-				<li>C++</li>
-				<li>Pyton</li>
-			</ul>
-			<h3>할 줄 아는거</h3>
-			<ul>
-				<li>C</li>
-				<li>C#</li>
-				<li>R</li>
-				<li>JavaScript</li>
-			</ul>
-		</ul>
+		<div style="display: flex; justify-content: space-around; width: 100%;">
+			<div>
+				<ul>
+					<h3>좀 자신있는거</h3>
+					<ul>
+						<li>C++</li>
+						<li>Pyton</li>
+				</ul>
+			</div>
+			<div>
+				<h3>할 줄 아는거</h3>
+				<ul>
+					<li>C</li>
+					<li>C#</li>
+					<li>R</li>
+					<li>JavaScript</li>
+				</ul>
+			</div>
+		</div>
 	</div>
 
 	<div id="projectContainer">
 		<h1>프로젝트</h1>
-		<h2>참여한 프로젝트</h2>
-		<ul>
-			<li>남원 어쩌구 저쩌구 대회</li>
-			<li>멋사 아이디어톤/해커톤</li>
-			<li>AM:PM 아이디어톤/해커톤</li>
-		</ul>
-		<h2>진행중인 프로젝트</h2>
-		<ul>
-			<li>창공설 프로젝트</li>
-			<li>CPU 세션 프로젝트</li>
-		</ul>
+		<div style="display: flex; justify-content: space-around; width: 100%;">
+			<div>
+				<h2>참여한 프로젝트</h2>
+				<ul>
+					<li>남원 어쩌구 저쩌구 대회</li>
+					<li>멋사 아이디어톤/해커톤</li>
+					<li>AM:PM 아이디어톤/해커톤</li>
+				</ul>
+			</div>
+
+			<div>
+				<h2>진행중인 프로젝트</h2>
+				<ul>
+					<li>창공설 프로젝트</li>
+					<li>CPU 세션 프로젝트</li>
+				</ul>
+			</div>
+		</div>
 	</div>
 </body>
 </html>
