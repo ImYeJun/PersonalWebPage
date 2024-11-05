@@ -17,12 +17,50 @@ html, body{
 	height: 100%;
 	justify-content: center;
 	align-items: center;
+	gap: 3%;
+	background-color: rgba(0, 0, 0, 0.671);	
+	background-size: cover;
+	background-position: center;
+	background-blend-mode: darken; 
+	color : white;
 }
 
 #game{
-	background-color: azure;
+	background-image: url("../../images/playingGames.webp");
 }
 
 #music{
-	background-color: wheat;
+	background-image: url("../../images/listeningToMusic.webp");
+}
+
+#music a{
+	text-decoration: none;
+	color:white
+}
+#music a:hover{
+	font-weight: bold;
+	color : pink;
+}
+
+figure.gameLogo{
+	text-align: center;
+}
+figure.gameLogo>img{
+	width: 200px;
+	height: 200px;
+	border-radius: 10%;
+}
+
+#games{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: space-around;
+}
+
+#writers{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: space-around;
 }
