@@ -63,26 +63,26 @@ td, th{
 }
 .subject:hover{
 	font-weight: bold;
-	color : hotpink
+	color : pink;
 }
-#linux{
+.linux{
 	background-color: #C2786B;
 }
-#creativeEngineering{
+.creativeEngineering{
 	background-color: #C5AA67;
 }
-#practicalEnglish{
+.practicalEnglish{
 	background-color: #96AC6B;
 }
-#cppProgramming{
+.cppProgramming{
 	background-color: #7CB2A5;
 }
-#webProgramming{
+.webProgramming{
 	background-color: #728DC4;
 }
-#math{
+.math{
 	background-color: #CE9663;
 }
-#writing{
+.writing{
 	background-color: #8575BC;
 }
