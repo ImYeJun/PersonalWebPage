@@ -35,3 +35,6 @@ html, body{
 #projectContainer{
 	background-image: url("../../images/projectBGI.gif");
 }
+figure{
+	text-align: center;
+}
