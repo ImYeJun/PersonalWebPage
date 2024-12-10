@@ -1,7 +1,22 @@
-#starter{
-    background-color: aliceblue;
+#header{
+    background-color: rgba(0, 0, 0, 0.49);
+    background-image: url("../../images/homePageHeder.gif"); 
+    /*출처 : https://tenor.com/ko/view/why-are-we-still-here-just-to-suffer-meme-looking-at-screen-computer-monitor-gif-3669927249682982487 */
+    background-blend-mode: multiply;
 }
 
 #shortcut{
-    background-color: aquamarine;
+    background-color: rgba(0, 0, 0, 0.49);
+    background-image: url("../../images/homePageShortCut.jpg"); 
+    background-position: center;
+    background-size: cover;
+    /*출처 : 사진: <a href="https://unsplash.com/ko/%EC%82%AC%EC%A7%84/people-sitting-down-near-table-with-assorted-laptop-computers-SYTO3xs06fU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>의<a href="https://unsplash.com/ko/@marvelous?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Marvin Meyer</a>*/
+    background-blend-mode: multiply;
+}
+#shortcut a{
+    text-decoration: none;
+    color : white;
+}
+#shortcut a:hover{
+    font-weight: bold;
 }
