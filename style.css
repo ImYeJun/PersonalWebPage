@@ -9,7 +9,7 @@ html, body{
   overflow: hidden;
 }
 
-#menuBar{
+header{
   height: 5%;
   padding : 7px 3px;
   border-bottom: 2px solid gray;
