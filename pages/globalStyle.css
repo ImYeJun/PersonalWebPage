@@ -6,6 +6,7 @@
 html, body, section{
 	width: 100%;
 	height: 100%;
+	scroll-snap-type: y mandatory;
 }
 
 section{
@@ -13,4 +14,5 @@ section{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	scroll-snap-align: start;
 }

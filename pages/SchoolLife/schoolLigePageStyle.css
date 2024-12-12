@@ -1,11 +1,19 @@
 #header{
-    background-color: turquoise;
+    background-image: url("../../images/schoolLifePageHeader.jpg");
+    background-color: rgba(0, 0, 0, 0.49);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
 }
 
 #scholar{
-    background-color: springgreen;
+    background-image: url("../../images/shinDoor.jpg");
+    background-color: rgba(0, 0, 0, 0.49);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
 }
 
 #timeTable{
-    background-color: slateblue;
+    background-color: bisque;
 }

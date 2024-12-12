@@ -13,6 +13,7 @@ header{
   height: 5%;
   padding : 7px 3px;
   border-bottom: 2px solid gray;
+  background-color: blanchedalmond;
 }
 #menuBar > ul{
   display: flex;

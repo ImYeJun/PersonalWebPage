@@ -1,5 +1,9 @@
 #header{
-    background-color: silver;
+    background-image: url("../../images/hobbyPageHeader.png");
+    background-color: rgba(0, 0, 0, 0.49);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
 }
 
 #games{
