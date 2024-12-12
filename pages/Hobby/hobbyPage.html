@@ -5,14 +5,77 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 	<link rel="stylesheet" href="./hobbyPageStyle.css">
-	<link  rel="stylesheet" href="../globalStyle.css">
+	<link rel="stylesheet" href="../globalStyle.css">
 </head>
 <body>
 	<section id="header">
 		<span style="font-size: 5em; font-weight: bold; color:white;">As a Hobbyist</span>
 		<span style="font-size: 2em; color :white">나의 취미들</span>
 	</section>
-	<section id="games">게임</section>
-	<section id="songs">노래</section>
+	<section id="games">
+		<span style="font-size: 2em; font-weight: bold; color:white;">Playing Games</span>
+		<div>
+			<a target="_blank" href="https://store.steampowered.com/app/960170/DJMAX_RESPECT_V/">
+				<img width="300px" src="../../images/djmaxLogo.svg" alt="djmax respect viewport">
+				<span style="color : white; font-size: 1.4em;">Djmax Respect V</span>
+			</a>
+			<a target="_blank" href="https://store.steampowered.com/app/268500/XCOM_2/">
+				<img width="300px" src="../../images/xcom2Logo.avif" alt="xcom2">
+				<span style="color : white; font-size: 1.4em;">XCOM2</span>
+			</a>
+			<a target="_blank" href="https://www.minecraft.net/ko-kr">
+				<img width="300px" src="../../images/minecraftLogo.webp" alt="mincraft">
+				<span style="color : white; font-size: 1.4em;">Minecraft</span>
+			</a>
+		</div>
+	</section>
+	<section id="songs">
+		<span style="font-size: 2em; font-weight: bold; color:white;">Listening to Songs</span>
+		<div style="color:white;">
+			<ul>
+				<span style="font-size: 1.4em; font-weight: bold; color:white;">
+					Favorite Songs 
+					<span style="font-size: 0.6em;">(click it!)</span>
+				</span>
+				<li>
+					<a  style="font-size: 1.2em; color:white;" 
+						target="musicPlayer" href="https://www.youtube.com/embed/6SNNdMXKNFA?si=2u5Xjy2TTFYdytN4">
+						enchanted love (and the witch's selfish heart) 
+						<sub>by linear ring</sub>
+					</a>
+				</li>
+				<li>
+					<a 	style="font-size: 1.2em; color:white;" 
+						target="musicPlayer" href="https://www.youtube.com/embed/xKM-jgaOW2Y?si=AtfhJLGrW-E9Wk-A">
+						Alive 
+						<sub>by Dabin</sub>
+					</a>
+				</li>
+				<li>
+					<a 	style="font-size: 1.2em; color:white;" 
+						target="musicPlayer" href="https://www.youtube.com/embed/fzQ6gRAEoy0?si=lbl4ZP2mtsKghVBt">
+						Shelter 
+						<sub>by Porter Robinson</sub>
+					</a>
+				</li>
+				<li>
+					<a 	style="font-size: 1.2em; color:white;" 
+						target="musicPlayer" href="https://www.youtube.com/embed/UtjMj7e46xE?si=v0FzjprTOtchP1sI">
+						Last Chance 
+						<sub>by CHPRTS</sub>
+					</a>
+				</li>
+			</ul>
+			<iframe 
+				width="560" height="315" 
+				src="https://www.youtube.com/embed/6SNNdMXKNFA?si=2u5Xjy2TTFYdytN4" 
+				name="musicPlayer"
+				title="YouTube video player" 
+				frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+				encrypted-media; gyroscope; picture-in-picture; web-share" 
+				referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+			</iframe>
+		</div>
+	</section>
 </body>
 </html>

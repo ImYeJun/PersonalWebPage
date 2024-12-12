@@ -7,9 +7,73 @@
 }
 
 #games{
-    background-color: sienna;
+    background-image: url("../../images/playingGame.webp");
+    /* 출처 : https://giphy.com/gifs/nickelodeon-animation-cartoon-3o6vY6UoOh3rX4t4rK */
+    background-color: rgba(0, 0, 0, 0.49);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+
+    flex-direction: column;
+    gap : 20px;
+
+    width: 100%;
+}
+#games > div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#games a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#games a > img{
+    border-radius: 50px;
+}
+#games a > img:hover{
+    box-shadow: 5px 5px 50px bisque;
+}
+#games a:visited{
+    text-decoration: none;
+}
+#games a:link{
+    text-decoration: none;
+}
+#games a:hover{
+    text-decoration: none;
 }
 
-#songs{
-    background-color: rosybrown;
+#songs{    
+    background-image: url("../../images/listeningToMusic.webp");
+    background-color: rgba(0, 0, 0, 0.49);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    gap : 22px;
+    width: 100%;
+}
+#songs > div{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#songs a:visited{
+    text-decoration: none;
+}
+#songs a:link{
+    text-decoration: none;
+}
+#songs a:hover{
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px bisque;
+}
+#songs sub{
+    vertical-align: baseline;
+    color : #d3d3d3;
 }
